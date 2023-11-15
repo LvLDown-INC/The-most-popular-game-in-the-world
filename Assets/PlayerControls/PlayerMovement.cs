@@ -13,8 +13,6 @@ public class PlayerMovement : MonoBehaviour
     public float jumpHeight = 2f;
 
     private float StandingHeight;
-    private Vector3 StandPosition;
-    private Vector3 CrouchPosition;
     
 
     private bool IsCrouching;
@@ -30,8 +28,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         StandingHeight = controller.height;
-        StandPosition = controller.center;
-        CrouchPosition = controller.center + new Vector3(0, -0.5f, 0);
+
 
         IsCrouching = false;
     }
@@ -54,16 +51,13 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded) {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
-        Debug.Log(isGrounded);
         if (Input.GetKeyDown("left ctrl") && isGrounded) {
             if (IsCrouching == false) {
-                controller.center = Vector3.Lerp(StandPosition, CrouchPosition, Time.deltaTime * CrouchAnimationSpeed);
                 controller.height = 1 * Time.deltaTime;
                 groundCheck.transform.position += new Vector3(0, 0.5f, 0);
                 IsCrouching = true;
             }
             else {
-                controller.center = Vector3.Lerp(CrouchPosition, StandPosition, Time.deltaTime * CrouchAnimationSpeed);
                 controller.height = StandingHeight;
                 groundCheck.transform.position -= new Vector3(0, 0.5f, 0);
                 IsCrouching = false;
