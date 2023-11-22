@@ -1,0 +1,481 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Unity\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+C:/Users/Олег/Documents/GitHub/The-most-popular-game-in-the-world
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+55051
+Successfully changed project path to: C:/Users/Олег/Documents/GitHub/The-most-popular-game-in-the-world
+C:/Users/Олег/Documents/GitHub/The-most-popular-game-in-the-world
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19024] Host "[IP] 192.168.1.102 [Port] 0 [Flags] 2 [Guid] 3857857745 [EditorId] 3857857745 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VSA61HJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19024] Host "[IP] 192.168.1.102 [Port] 0 [Flags] 2 [Guid] 3857857745 [EditorId] 3857857745 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VSA61HJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 74.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path C:/Unity/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Олег/Documents/GitHub/The-most-popular-game-in-the-world/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'C:/Unity/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Unity/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Unity/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004219 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 61.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.482 seconds
+Domain Reload Profiling:
+	ReloadAssembly (482ms)
+		BeginReloadAssembly (67ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (332ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (88ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (185ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002979 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Олег\Documents\GitHub\The-most-popular-game-in-the-world\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Олег\Documents\GitHub\The-most-popular-game-in-the-world\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.735 seconds
+Domain Reload Profiling:
+	ReloadAssembly (736ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (576ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (255ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.6 KB). Loaded Objects now: 3511.
+Memory consumption went from 108.8 MB to 108.7 MB.
+Total: 3.906000 ms (FindLiveObjects: 0.382700 ms CreateObjectMapping: 0.171600 ms MarkObjects: 3.212400 ms  DeleteObjects: 0.138200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21942.898755 seconds.
+  path: Assets/LowPolyMetalRack/Scenes
+  artifactKey: Guid(6eb010d0de5232f40953c6f79bf77249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyMetalRack/Scenes using Guid(6eb010d0de5232f40953c6f79bf77249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f0f5d7f0649f2447c80a9beec52453') in 0.014441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 300.695463 seconds.
+  path: Assets/Icecream_Fridge_LP.fbx
+  artifactKey: Guid(6825c65f3242b5d44b6a4c979080e6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icecream_Fridge_LP.fbx using Guid(6825c65f3242b5d44b6a4c979080e6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526beba5b8ef730baf158a52bd646f90') in 0.386510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.536617 seconds.
+  path: Assets/textures/Icecream_Fridge_LP_AO.jpg
+  artifactKey: Guid(1aa5b2133a9f78c4593db8c2a4d1ffbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Icecream_Fridge_LP_AO.jpg using Guid(1aa5b2133a9f78c4593db8c2a4d1ffbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981d9889bc344c18968a5892211a1956') in 0.031893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/textures/Icecream_Fridge_LP_OPACITY.png
+  artifactKey: Guid(7134f9290d0b531449e1058686d26c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Icecream_Fridge_LP_OPACITY.png using Guid(7134f9290d0b531449e1058686d26c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290f62d31648a71c03739899420bed44') in 0.013876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.621060 seconds.
+  path: Assets/textures/Icecream_Fridge_LP_AO 1.jpg
+  artifactKey: Guid(204fb6dc4f8386f4c84164446e186b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Icecream_Fridge_LP_AO 1.jpg using Guid(204fb6dc4f8386f4c84164446e186b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b551dafd5220db1cce829d1c8471f090') in 0.017445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/textures/Icecream_Fridge_LP_ROUGHNESS 1.png
+  artifactKey: Guid(4285b9af8ac59d84983ce1cca4c009dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Icecream_Fridge_LP_ROUGHNESS 1.png using Guid(4285b9af8ac59d84983ce1cca4c009dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd847775289b52ee776fad5a1e7bef316') in 0.018201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.821362 seconds.
+  path: Assets/textures/Icecream_Fridge_LP_AO 2.jpg
+  artifactKey: Guid(381d37615cf44ab4cbf70c695bad7684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Icecream_Fridge_LP_AO 2.jpg using Guid(381d37615cf44ab4cbf70c695bad7684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e501ad14c4a754dcb6169d67b7278cbf') in 0.016538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/textures/Icecream_Fridge_LP_ROUGHNESS 2.png
+  artifactKey: Guid(56a33db9c9c008846b738ddfccd334b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Icecream_Fridge_LP_ROUGHNESS 2.png using Guid(56a33db9c9c008846b738ddfccd334b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43594d320b3b31206e8be4f0ea4402de') in 0.013125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.209765 seconds.
+  path: Assets/Materials/glass_gloss.mat
+  artifactKey: Guid(68ff327e050eadb40a822fb05494a099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/glass_gloss.mat using Guid(68ff327e050eadb40a822fb05494a099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e764bccfca1c9a4a3922d879343164') in 0.017826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.650617 seconds.
+  path: Assets/Icecream_Fridge_LP.fbx
+  artifactKey: Guid(6825c65f3242b5d44b6a4c979080e6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icecream_Fridge_LP.fbx using Guid(6825c65f3242b5d44b6a4c979080e6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84901cbb41ad5af971e88b0bc27a5c6a') in 0.049043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.034477 seconds.
+  path: Assets/Icecream_Fridge_LP.fbx
+  artifactKey: Guid(6825c65f3242b5d44b6a4c979080e6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icecream_Fridge_LP.fbx using Guid(6825c65f3242b5d44b6a4c979080e6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e9533ec9557319ed1cbdf730acc2d7') in 0.035257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.261259 seconds.
+  path: Assets/Icecream_Fridge_LP.fbx
+  artifactKey: Guid(6825c65f3242b5d44b6a4c979080e6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icecream_Fridge_LP.fbx using Guid(6825c65f3242b5d44b6a4c979080e6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaaaed4b71b33d5daa12fcb9b3625645') in 0.015643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 194.027023 seconds.
+  path: Assets/Furniture_FREE/Meshes
+  artifactKey: Guid(17ee2e11a2bac7f4ea3394d447718c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes using Guid(17ee2e11a2bac7f4ea3394d447718c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf1f8909efc63a207998c6794c35f96') in 0.007072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048009 seconds.
+  path: Assets/Furniture_FREE/Meshes/air_hockey_001.fbx
+  artifactKey: Guid(5a07704c3449b53429056664faa78a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/air_hockey_001.fbx using Guid(5a07704c3449b53429056664faa78a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054b20e6dd38dd685d923d3fa7bbd791') in 0.023391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Furniture_FREE/Meshes/training_item_002.fbx
+  artifactKey: Guid(4f99996cfa872bf42a2af32a1d158fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/training_item_002.fbx using Guid(4f99996cfa872bf42a2af32a1d158fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588be5555beb8a154510a042e632fba4') in 0.022294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Furniture_FREE/Meshes/toy_002.fbx
+  artifactKey: Guid(50fbd10abb1bf674981c5e42d73e5f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/toy_002.fbx using Guid(50fbd10abb1bf674981c5e42d73e5f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e89f7eb9a6ac607d3463c71f9a55479') in 0.020190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Furniture_FREE/Meshes/tv_wall_001.fbx
+  artifactKey: Guid(58f701239c50ef14494883f16e8383cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/tv_wall_001.fbx using Guid(58f701239c50ef14494883f16e8383cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50df3d082b75877d1e10665609e721a2') in 0.021676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Furniture_FREE/Meshes/office_table_001.fbx
+  artifactKey: Guid(e8bcc2af6da4ffa4ba221825387cee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/office_table_001.fbx using Guid(e8bcc2af6da4ffa4ba221825387cee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f588067617615b92e6c2f8568453dc') in 0.019731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Furniture_FREE/Meshes/scratching_post_001.fbx
+  artifactKey: Guid(15b9b4825687b3b49a791a3ac38d48a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/scratching_post_001.fbx using Guid(15b9b4825687b3b49a791a3ac38d48a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a46f6c4a520d43862b60e1159e3719') in 0.041855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Furniture_FREE/Meshes/training_item_001.fbx
+  artifactKey: Guid(229c147ca36ed9747a2bdb66dfe23a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/training_item_001.fbx using Guid(229c147ca36ed9747a2bdb66dfe23a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80193ce26795930195c6629d24ec57b2') in 0.015950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Furniture_FREE/Meshes/camera_001.fbx
+  artifactKey: Guid(dd07248fa5962df43854a0f731b6b845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/camera_001.fbx using Guid(dd07248fa5962df43854a0f731b6b845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b2a1c59426895b9f09fb271ced8140') in 0.016362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Furniture_FREE/Meshes/toy_001.fbx
+  artifactKey: Guid(ed42e3e83a1505c46be371032c205b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/toy_001.fbx using Guid(ed42e3e83a1505c46be371032c205b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2e6c2df9cef7c6994038593dff61dd') in 0.014432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.875460 seconds.
+  path: Assets/Furniture_FREE/Textures
+  artifactKey: Guid(3156c59ed01ffb14fb51f16138b56eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Textures using Guid(3156c59ed01ffb14fb51f16138b56eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8823d57bde05b2693a604601d0d3b1') in 0.007040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 611.323792 seconds.
+  path: Assets/cash_register.fbx
+  artifactKey: Guid(13a47ed0a33f3dd4f80df90680b542aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cash_register.fbx using Guid(13a47ed0a33f3dd4f80df90680b542aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d245cfa87abf18108a13a7caeebca8') in 0.071235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.785827 seconds.
+  path: Assets/textures/textures_(1).png
+  artifactKey: Guid(7f1b7c463cee6ac4fb875c0af5eaa909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/textures_(1).png using Guid(7f1b7c463cee6ac4fb875c0af5eaa909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e675d696372a43d31e3d70e931e8a3e') in 0.018799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.292037 seconds.
+  path: Assets/Materials/Icecream_Fridge_LP_AO 1.mat
+  artifactKey: Guid(17a084eeb42735b4c816b2b4d341cec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Icecream_Fridge_LP_AO 1.mat using Guid(17a084eeb42735b4c816b2b4d341cec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae1f9f463ec9e49802ead001f0d9e26') in 0.014691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/Icecream_Fridge_LP_basecolor 2.mat
+  artifactKey: Guid(276d08451d6131a47b7e3e895e79292c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Icecream_Fridge_LP_basecolor 2.mat using Guid(276d08451d6131a47b7e3e895e79292c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efa80cfd9e3ed28fcb65a7b2ed2a4b0') in 0.017210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/Icecream_Fridge_LP_basecolor.mat
+  artifactKey: Guid(702f44fd7836b8a469c793c94c19c1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Icecream_Fridge_LP_basecolor.mat using Guid(702f44fd7836b8a469c793c94c19c1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeeba67706dcf9337f2f39ce9a7e4930') in 0.017846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/Icecream_Fridge_LP_basecolor 1.mat
+  artifactKey: Guid(785e02b48d058a441befe46c29285f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Icecream_Fridge_LP_basecolor 1.mat using Guid(785e02b48d058a441befe46c29285f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e707126e808ffddab9588170affcfc') in 0.019988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Materials/Icecream_Fridge_LP_ROUGHNESS 2.mat
+  artifactKey: Guid(5d2450aee7dfab849bf7081f837e13d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Icecream_Fridge_LP_ROUGHNESS 2.mat using Guid(5d2450aee7dfab849bf7081f837e13d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa1350c85404e8be779b7aa585acff3') in 0.021575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/Icecream_Fridge_LP_ROUGHNESS.mat
+  artifactKey: Guid(211476ec56c64f54eb1b529deb056ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Icecream_Fridge_LP_ROUGHNESS.mat using Guid(211476ec56c64f54eb1b529deb056ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4a64b06c593f7b25ef8fecfdb51645') in 0.027826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.369517 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(6b201c0ef47923344aa022852c3200c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(6b201c0ef47923344aa022852c3200c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db2f61c3f0fdcb9324a6670bc16ae9a') in 0.010607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.362240 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonEnabled.png
+  artifactKey: Guid(c207dcd389fb689489f5266468cd4609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackAvatarButtonEnabled.png using Guid(c207dcd389fb689489f5266468cd4609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a8c92d95bb2e9aa1fd001f59e25e1c') in 0.018381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMuteButtonEnabled.png
+  artifactKey: Guid(ac5017dfbeee42347b3b45ecc572674e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMuteButtonEnabled.png using Guid(ac5017dfbeee42347b3b45ecc572674e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eaadde6ed40423b737e49679df740b8') in 0.015174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMuteButtonEnabled@2x.png
+  artifactKey: Guid(e54e20c7a9730fe4c822d63228527ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TrackMuteButtonEnabled@2x.png using Guid(e54e20c7a9730fe4c822d63228527ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fba7289c67cf6f6d6815aa19af3094b') in 0.016672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonDisabled.png
+  artifactKey: Guid(33a52b41b4de5874ca7da1da32067e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackMarkerButtonDisabled.png using Guid(33a52b41b4de5874ca7da1da32067e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d66b437f738ca7c6cd9af5cf16c18b') in 0.015058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackCurvesButtonEnabled.png
+  artifactKey: Guid(9589d5d9eb09dec43b2ad51af4e78b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackCurvesButtonEnabled.png using Guid(9589d5d9eb09dec43b2ad51af4e78b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f98ee9d7d937884465ea1e99b95b8ca') in 0.014802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackLockButtonDisabled.png
+  artifactKey: Guid(fef7487d8b06bba408f70354e2463ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackLockButtonDisabled.png using Guid(fef7487d8b06bba408f70354e2463ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f3c5c9af545204f1e62ef64f66e7f7') in 0.017582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackLockButtonDisabled@2x.png
+  artifactKey: Guid(6fb5cabb85ba3794682b16eba19440cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackLockButtonDisabled@2x.png using Guid(6fb5cabb85ba3794682b16eba19440cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1265a404413a79b80fac82ef8d039fc1') in 0.016651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackLockButtonEnabled@2x.png
+  artifactKey: Guid(b8c531b4e51e4994a81837c4e9b0d649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackLockButtonEnabled@2x.png using Guid(b8c531b4e51e4994a81837c4e9b0d649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63262cd2bbcfc0b79ef2b3f2d84de0ea') in 0.015961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackAvatarButtonDisabled.png
+  artifactKey: Guid(54623075676bd504d93243fb18745161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackAvatarButtonDisabled.png using Guid(54623075676bd504d93243fb18745161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556fae4642d7a2ce287a50c93cd113d3') in 0.015716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackCurvesButtonEnabled@2x.png
+  artifactKey: Guid(9e541b6dcfb77d34481f69b3d62d0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TrackCurvesButtonEnabled@2x.png using Guid(9e541b6dcfb77d34481f69b3d62d0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5ba840378cc2727eb6f4a79d0fb898') in 0.016240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.322562 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_step1@2x.png
+  artifactKey: Guid(c8a69ecdf54ac8e4b873466605de27ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_step1@2x.png using Guid(c8a69ecdf54ac8e4b873466605de27ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716fe82904eb584bd79ef8cbae2d1d26') in 0.027343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflictedoverlay@2x.png
+  artifactKey: Guid(5679a74364f6b4440ab7e7aed55cd95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflictedoverlay@2x.png using Guid(5679a74364f6b4440ab7e7aed55cd95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23eda30250d585f50ba6c2f4e34bf168') in 0.017895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_step3@2x.png
+  artifactKey: Guid(c9ed6d6ea2f9657409bfa068d4846139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_step3@2x.png using Guid(c9ed6d6ea2f9657409bfa068d4846139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d19e6f92cf3d9f60f501cab06daa9f') in 0.017467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_step3.png
+  artifactKey: Guid(46930b20180b59e46b73494adf53abbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_step3.png using Guid(46930b20180b59e46b73494adf53abbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b67a702ab98019f14b33621e6634f33') in 0.015970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/icondeletedlocaloverlay@2x.png
+  artifactKey: Guid(a3e491f99ea3ad74f8731ca93e84c497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/icondeletedlocaloverlay@2x.png using Guid(a3e491f99ea3ad74f8731ca93e84c497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76ef0d647f9442e8055ac97ce063291') in 0.018277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflicted@2x.png
+  artifactKey: Guid(f95f697d66d238446b1ab717def09945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflicted@2x.png using Guid(f95f697d66d238446b1ab717def09945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c3de1b1bbeabe59a6231c03f93a935') in 0.017333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.324713 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd
+  artifactKey: Guid(2fd6421f253b4ef1a19526541f9ffc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd using Guid(2fd6421f253b4ef1a19526541f9ffc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6987c0a648b2a421f1f1286b6d13dd0d') in 0.012172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 216.729179 seconds.
+  path: Assets/cash_register.fbx
+  artifactKey: Guid(13a47ed0a33f3dd4f80df90680b542aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cash_register.fbx using Guid(13a47ed0a33f3dd4f80df90680b542aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0ad29f288fa91bf2872be3e2ccf327') in 0.031629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.388472 seconds.
+  path: Assets/cash_register.fbx
+  artifactKey: Guid(13a47ed0a33f3dd4f80df90680b542aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cash_register.fbx using Guid(13a47ed0a33f3dd4f80df90680b542aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccb5af4e5926cc4a842eb45981a3e8e') in 0.059252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.438585 seconds.
+  path: Assets/cash_register.fbx
+  artifactKey: Guid(13a47ed0a33f3dd4f80df90680b542aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cash_register.fbx using Guid(13a47ed0a33f3dd4f80df90680b542aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a224789308b341f4caa77a36e376435') in 0.056512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 178.326603 seconds.
+  path: Assets/cash_register.fbx
+  artifactKey: Guid(13a47ed0a33f3dd4f80df90680b542aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cash_register.fbx using Guid(13a47ed0a33f3dd4f80df90680b542aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cdd7c496af836eefd30421631b92fba') in 0.063196 seconds 
