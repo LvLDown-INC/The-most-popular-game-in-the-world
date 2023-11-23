@@ -3590,7 +3590,7 @@ GameObject:
   - component: {fileID: 983873547}
   - component: {fileID: 983873546}
   - component: {fileID: 983873545}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4051,11 +4051,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1102888632}
-  speed: 5
-  CrouchSpeed: 2.5
+  speed: 4
+  WalkSpeed: 4
+  CrouchSpeed: 2
+  SprintSpeed: 6
   CrouchAnimationSpeed: 2
   gravity: -9.8
-  jumpHeight: 2
+  jumpHeight: 1
   groundCheck: {fileID: 72314968}
   groundDistance: 0.4
   groundMask:
@@ -6598,7 +6600,7 @@ GameObject:
   - component: {fileID: 2024166484}
   - component: {fileID: 2024166483}
   - component: {fileID: 2024166482}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
