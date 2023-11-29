@@ -1,23 +1,29 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 23982 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 7966 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-E:\Programs\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+C:\Users\Evikx\Desktop\Unity\2021.3.22f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-E:/ProgProjects/VisualProg/TheGame/The-most-popular-game-in-the-world
+C:/Users/Evikx/Desktop/уроки/ВП/The-most-popular-game-in-the-world
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 63461
 Successfully changed project path to: E:/ProgProjects/VisualProg/TheGame/The-most-popular-game-in-the-world
 E:/ProgProjects/VisualProg/TheGame/The-most-popular-game-in-the-world
+=======
+51392
+Successfully changed project path to: C:/Users/Evikx/Desktop/уроки/ВП/The-most-popular-game-in-the-world
+C:/Users/Evikx/Desktop/уроки/ВП/The-most-popular-game-in-the-world
+>>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,23 +53,32 @@ E:/ProgProjects/VisualProg/TheGame/The-most-popular-game-in-the-world
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [11040] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 643624761 [EditorId] 643624761 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-71PLF2UE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [11040] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 643624761 [EditorId] 643624761 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-71PLF2UE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Refreshing native plugins compatible for Editor in 74.87 ms, found 3 plugins.
+=======
+Player connection [12920] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1814743967 [EditorId] 1814743967 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RI0HR87) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12920] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1814743967 [EditorId] 1814743967 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RI0HR87) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 144.21 ms, found 3 plugins.
+>>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
-[Subsystems] Discovering subsystems at path E:/Programs/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/ProgProjects/VisualProg/TheGame/The-most-popular-game-in-the-world/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Evikx/Desktop/Unity/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Evikx/Desktop/уроки/ВП/The-most-popular-game-in-the-world/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
-    Vendor:   NVIDIA
-    VRAM:     3962 MB
-    Driver:   30.0.15.1278
+    Renderer: Intel(R) UHD Graphics (ID=0x8a56)
+    Vendor:   Intel
+    VRAM:     3983 MB
+    Driver:   27.20.100.8783
 Initialize mono
+<<<<<<< HEAD
 Mono path[0] = 'E:/Programs/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Programs/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Programs/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
@@ -80,11 +95,30 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (580ms)
 		BeginReloadAssembly (79ms)
+=======
+Mono path[0] = 'C:/Users/Evikx/Desktop/Unity/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/Evikx/Desktop/Unity/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/Evikx/Desktop/Unity/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/Evikx/Desktop/Unity/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015556 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 168.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.399 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1400ms)
+		BeginReloadAssembly (263ms)
+>>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 		EndReloadAssembly (415ms)
 			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -92,24 +126,45 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (28ms)
 			SetupLoadedEditorAssemblies (238ms)
+=======
+		EndReloadAssembly (932ms)
+			LoadAssemblies (257ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (538ms)
+>>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< HEAD
 				RefreshPlugins (75ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (113ms)
 				ProcessInitializeOnLoadMethodAttributes (43ms)
+=======
+				RefreshPlugins (169ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (96ms)
+>>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.003095 seconds.
+=======
+Registered in 0.023099 seconds.
+>>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\ProgProjects\VisualProg\TheGame\The-most-popular-game-in-the-world\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\ProgProjects\VisualProg\TheGame\The-most-popular-game-in-the-world\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Evikx\Desktop\уроки\ВП\The-most-popular-game-in-the-world\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Evikx\Desktop\уроки\ВП\The-most-popular-game-in-the-world\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -117,10 +172,20 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (933ms)
 		BeginReloadAssembly (128ms)
+=======
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.534 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2536ms)
+		BeginReloadAssembly (250ms)
+>>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (25ms)
 		EndReloadAssembly (712ms)
 			LoadAssemblies (88ms)
@@ -129,34 +194,59 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (47ms)
 			SetupLoadedEditorAssemblies (288ms)
+=======
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (2041ms)
+			LoadAssemblies (255ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (614ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (1022ms)
+>>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
+<<<<<<< HEAD
 				BeforeProcessingInitializeOnLoad (68ms)
 				ProcessInitializeOnLoadAttributes (194ms)
 				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (2ms)
+=======
+				BeforeProcessingInitializeOnLoad (218ms)
+				ProcessInitializeOnLoadAttributes (724ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (16ms)
+>>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+<<<<<<< HEAD
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+=======
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+>>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 24 unused Assets / (113.6 KB). Loaded Objects now: 3514.
 Memory consumption went from 109.2 MB to 109.1 MB.
+<<<<<<< HEAD
 Total: 3.010300 ms (FindLiveObjects: 0.349400 ms CreateObjectMapping: 0.087700 ms MarkObjects: 2.453600 ms  DeleteObjects: 0.118000 ms)
+=======
+Total: 12.845900 ms (FindLiveObjects: 0.420600 ms CreateObjectMapping: 0.298000 ms MarkObjects: 11.282700 ms  DeleteObjects: 0.841800 ms)
+>>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -164,6 +254,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 263586.390777 seconds.
   path: Assets/Materials/Window.mat
   artifactKey: Guid(6e3132f37df49bb4f9576ce248c23b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -1747,3 +1838,189 @@ Editor requested this worker to shutdown with reason: Scaling down because of id
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
+=======
+  Time since last request: 1064194.408957 seconds.
+  path: Assets/Furniture_FREE/Materials/Material.mat
+  artifactKey: Guid(a88ec864e1a9c704f901b331887e870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Materials/Material.mat using Guid(a88ec864e1a9c704f901b331887e870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f6688635a0fbd5ee000e875a135da0') in 0.520294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.323608 seconds.
+  path: Assets/Wooden_table_and_chair
+  artifactKey: Guid(4ce3a2bbcea56664dbc5dab4c1a4f259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden_table_and_chair using Guid(4ce3a2bbcea56664dbc5dab4c1a4f259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19b2bbdf269d1223d5b159293703a95') in 0.004578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.004381 seconds.
+  path: Assets/Wooden_table_and_chair/FBX
+  artifactKey: Guid(e17e3ae1ec0a29545ba296e0f7d48014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden_table_and_chair/FBX using Guid(e17e3ae1ec0a29545ba296e0f7d48014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4710a72ef6741ea17490971ca6874f6e') in 0.003853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053629 seconds.
+  path: Assets/Wooden_table_and_chair/FBX/table_and_chair.FBX
+  artifactKey: Guid(648250201fabe574b8591ee45cddcf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden_table_and_chair/FBX/table_and_chair.FBX using Guid(648250201fabe574b8591ee45cddcf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9e82e31112c7df3848649445be0ca1') in 0.116860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.717020 seconds.
+  path: Assets/Wooden_table_and_chair/FBX/Materials
+  artifactKey: Guid(08d0acdcb0154104c89600814fa97036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden_table_and_chair/FBX/Materials using Guid(08d0acdcb0154104c89600814fa97036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8f2b947a6d5ff87f9cd3464b5c1958') in 0.017223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.465698 seconds.
+  path: Assets/Furniture_FREE
+  artifactKey: Guid(4a3046b7cd7395d4dae68ca554186a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE using Guid(4a3046b7cd7395d4dae68ca554186a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378fe124eef3385a808b85e783a5a0b9') in 0.005457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.299257 seconds.
+  path: Assets/Furniture_FREE/Textures
+  artifactKey: Guid(3156c59ed01ffb14fb51f16138b56eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Textures using Guid(3156c59ed01ffb14fb51f16138b56eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8de162bab0e7d7b0512a276c3f9e9a') in 0.003276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061420 seconds.
+  path: Assets/Furniture_FREE/Textures/Texture.png
+  artifactKey: Guid(c00fc11ebcd45a94cb3ba086341ffec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Textures/Texture.png using Guid(c00fc11ebcd45a94cb3ba086341ffec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6c22eaab76a0031d773c98b76c4d14') in 0.044686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.692174 seconds.
+  path: Assets/Furniture_FREE/Scenes
+  artifactKey: Guid(4f8f88d71fb227947a22b6e9afc900ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Scenes using Guid(4f8f88d71fb227947a22b6e9afc900ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8507b982b6dcb99e1de706e473ae36d3') in 0.003709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.309711 seconds.
+  path: Assets/Furniture_FREE/Meshes
+  artifactKey: Guid(17ee2e11a2bac7f4ea3394d447718c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes using Guid(17ee2e11a2bac7f4ea3394d447718c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37c65beaa7c53f0dbcaf892e5eeba23') in 0.002517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055935 seconds.
+  path: Assets/Furniture_FREE/Meshes/air_hockey_001.fbx
+  artifactKey: Guid(5a07704c3449b53429056664faa78a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/air_hockey_001.fbx using Guid(5a07704c3449b53429056664faa78a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f8e1a546aad96a14900a9d6477a607') in 0.035613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Furniture_FREE/Meshes/clothes_001.fbx
+  artifactKey: Guid(e0e5aa5f70455564bad4ce315b3b3d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/clothes_001.fbx using Guid(e0e5aa5f70455564bad4ce315b3b3d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8d3d0e9c05e01cd8f8330719604736') in 0.036324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Furniture_FREE/Meshes/toy_002.fbx
+  artifactKey: Guid(50fbd10abb1bf674981c5e42d73e5f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/toy_002.fbx using Guid(50fbd10abb1bf674981c5e42d73e5f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a65365e4d6f6ced97702207b0e1057') in 0.057679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Furniture_FREE/Meshes/dresser_001.fbx
+  artifactKey: Guid(fc22d9e1f78546b4b96b9ba402f0464e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/dresser_001.fbx using Guid(fc22d9e1f78546b4b96b9ba402f0464e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e90f0a36e62504ff9bcf379f27a0fd') in 0.045033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Furniture_FREE/Meshes/dish_001.fbx
+  artifactKey: Guid(c35be5ac0e6fada40bc4de937c91e58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/dish_001.fbx using Guid(c35be5ac0e6fada40bc4de937c91e58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64258886ed45f40927a949057b9c58a') in 0.043031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Furniture_FREE/Meshes/sofa_001.fbx
+  artifactKey: Guid(b2bfb3f987d345b4388c7173f6f9649c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/sofa_001.fbx using Guid(b2bfb3f987d345b4388c7173f6f9649c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2232c8beedcc9e827232eda0ac87e4d') in 0.064922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Furniture_FREE/Meshes/drink_002.fbx
+  artifactKey: Guid(bd5082c0615524b4fac183d53d9768f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/drink_002.fbx using Guid(bd5082c0615524b4fac183d53d9768f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fb94ff4844e339040922a5fc79669b') in 0.053764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Furniture_FREE/Meshes/camera_001.fbx
+  artifactKey: Guid(dd07248fa5962df43854a0f731b6b845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/camera_001.fbx using Guid(dd07248fa5962df43854a0f731b6b845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de548d37e803b61106c35ce7af294782') in 0.040227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Furniture_FREE/Meshes/dumbbell_002.fbx
+  artifactKey: Guid(cd560a8cb8bd1ec4fb3267ac9441df28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/dumbbell_002.fbx using Guid(cd560a8cb8bd1ec4fb3267ac9441df28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832b5bc48c7ed490f5d6f8b49446b04a') in 0.034117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Furniture_FREE/Meshes/fridge_001.fbx
+  artifactKey: Guid(021213b5eba77904097e0f5aa1a99d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/fridge_001.fbx using Guid(021213b5eba77904097e0f5aa1a99d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd474dcdd38311e03dffb518988e03c14') in 0.053605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Furniture_FREE/Meshes/lamp_002.fbx
+  artifactKey: Guid(2e77c6e655b38ef4192709540b5bf630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/lamp_002.fbx using Guid(2e77c6e655b38ef4192709540b5bf630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0850d79e77fc11f4b9fcf2c99b5406c') in 0.057944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Furniture_FREE/Meshes/training_item_002.fbx
+  artifactKey: Guid(4f99996cfa872bf42a2af32a1d158fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/training_item_002.fbx using Guid(4f99996cfa872bf42a2af32a1d158fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cb22c5278f8c9f0163245c0d3d7c96') in 0.065955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Furniture_FREE/Meshes/tv_wall_001.fbx
+  artifactKey: Guid(58f701239c50ef14494883f16e8383cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/tv_wall_001.fbx using Guid(58f701239c50ef14494883f16e8383cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d640dfe9fd6684842883a7d69bdac1') in 0.046660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Furniture_FREE/Meshes/box_001.fbx
+  artifactKey: Guid(c6ee65a17262c4b4595ed6f80b6a2a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/box_001.fbx using Guid(c6ee65a17262c4b4595ed6f80b6a2a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d0d6b55544b27ef9cbe6ce0d154594') in 0.042795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Furniture_FREE/Meshes/scratching_post_001.fbx
+  artifactKey: Guid(15b9b4825687b3b49a791a3ac38d48a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/scratching_post_001.fbx using Guid(15b9b4825687b3b49a791a3ac38d48a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42ceaae53470a885a63a823a73ca6f0') in 0.045760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Furniture_FREE/Meshes/lamp_001.fbx
+  artifactKey: Guid(0b370e01cda840a45982c117ac706827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/lamp_001.fbx using Guid(0b370e01cda840a45982c117ac706827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3568d736b8d583f5ece3cefbe2b3461') in 0.056977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Furniture_FREE/Meshes/musical_instrument_001.fbx
+  artifactKey: Guid(1d07df417cf9ab04bbc8f6071741f043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/musical_instrument_001.fbx using Guid(1d07df417cf9ab04bbc8f6071741f043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a57865229b75017151ce97059ba2e9') in 0.060074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Furniture_FREE/Meshes/kitchen_table_001.fbx
+  artifactKey: Guid(e4a219c91f34ce74ab295a64b6a63f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/kitchen_table_001.fbx using Guid(e4a219c91f34ce74ab295a64b6a63f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbd38cd2a0fa4dfdad50dcd1456ce0a') in 0.072655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Furniture_FREE/Meshes/flower_001.fbx
+  artifactKey: Guid(649646106a38e1346b231d5f5d64467f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/flower_001.fbx using Guid(649646106a38e1346b231d5f5d64467f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9381f8cd2cc65f01420e013cf004797') in 0.064085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Furniture_FREE/Meshes/lounge_chair_001.fbx
+  artifactKey: Guid(c6c4229ba17e2e44a8c650fa2627f71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/lounge_chair_001.fbx using Guid(c6c4229ba17e2e44a8c650fa2627f71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18bb988df4df617a0e4487f52161193') in 0.062896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Furniture_FREE/Meshes/toy_001.fbx
+  artifactKey: Guid(ed42e3e83a1505c46be371032c205b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/toy_001.fbx using Guid(ed42e3e83a1505c46be371032c205b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40b2c7cb8c7a69469047bb9de910984') in 0.109825 seconds 
+>>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
