@@ -87,7 +87,6 @@ public class PlayerMovement : MonoBehaviour
             if (x == 0) {
                 Vector3 move = transform.right * x + transform.forward * z;
                 controller.Move(move * speed * Time.deltaTime);
-                Debug.Log(z * 0.8f * speed);
             }
             else {
                 Vector3 move = transform.right * x * 0.7f + transform.forward * z * 0.7f;
@@ -103,14 +102,10 @@ public class PlayerMovement : MonoBehaviour
                 Vector3 move = transform.right * x * 0.57f + transform.forward * z * 0.57f;
                 controller.Move(move * speed * Time.deltaTime);
             }
-            Debug.Log(z * speed);
-            Debug.Log("X:");
-            Debug.Log(x * speed * 0.7f);
         }
         else {
             Vector3 move = transform.right * x + transform.forward * z;
             controller.Move(move * speed * Time.deltaTime);
-            Debug.Log(x * speed);
         }
     }
 }
