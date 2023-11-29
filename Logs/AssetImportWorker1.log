@@ -1,20 +1,21 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 7966 MB
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 23982 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Users\Evikx\Desktop\Unity\2021.3.22f1\Editor\Unity.exe
+E:\Programs\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/Evikx/Desktop/уроки/ВП/The-most-popular-game-in-the-world
+E:/ProgProjects/VisualProg/TheGame/The-most-popular-game-in-the-world
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 63461
 Successfully changed project path to: E:/ProgProjects/VisualProg/TheGame/The-most-popular-game-in-the-world
@@ -24,6 +25,11 @@ E:/ProgProjects/VisualProg/TheGame/The-most-popular-game-in-the-world
 Successfully changed project path to: C:/Users/Evikx/Desktop/уроки/ВП/The-most-popular-game-in-the-world
 C:/Users/Evikx/Desktop/уроки/ВП/The-most-popular-game-in-the-world
 >>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
+=======
+56875
+Successfully changed project path to: E:/ProgProjects/VisualProg/TheGame/The-most-popular-game-in-the-world
+E:/ProgProjects/VisualProg/TheGame/The-most-popular-game-in-the-world
+>>>>>>> Stashed changes
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -53,6 +59,7 @@ C:/Users/Evikx/Desktop/уроки/ВП/The-most-popular-game-in-the-world
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 Player connection [9256] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2906409810 [EditorId] 2906409810 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-71PLF2UE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
@@ -61,23 +68,31 @@ Player connection [9256] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 29064
 Refreshing native plugins compatible for Editor in 75.28 ms, found 3 plugins.
 =======
 Player connection [25064] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2519719895 [EditorId] 2519719895 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RI0HR87) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+=======
+Player connection [23604] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2819650543 [EditorId] 2819650543 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-71PLF2UE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+>>>>>>> Stashed changes
 
-Player connection [25064] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2519719895 [EditorId] 2519719895 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RI0HR87) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23604] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2819650543 [EditorId] 2819650543 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-71PLF2UE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 144.21 ms, found 3 plugins.
 >>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
+=======
+Refreshing native plugins compatible for Editor in 89.03 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
-[Subsystems] Discovering subsystems at path C:/Users/Evikx/Desktop/Unity/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Evikx/Desktop/уроки/ВП/The-most-popular-game-in-the-world/Assets
+[Subsystems] Discovering subsystems at path E:/Programs/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/ProgProjects/VisualProg/TheGame/The-most-popular-game-in-the-world/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics (ID=0x8a56)
-    Vendor:   Intel
-    VRAM:     3983 MB
-    Driver:   27.20.100.8783
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   30.0.15.1278
 Initialize mono
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 Mono path[0] = 'E:/Programs/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Programs/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
@@ -100,24 +115,36 @@ Mono path[0] = 'C:/Users/Evikx/Desktop/Unity/2021.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/Evikx/Desktop/Unity/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Users/Evikx/Desktop/Unity/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+=======
+Mono path[0] = 'E:/Programs/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Programs/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Programs/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Users/Evikx/Desktop/Unity/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015345 seconds.
+Register platform support module: E:/Programs/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002146 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 174.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 71.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.394 seconds
+- Completed reload, in  0.627 seconds
 Domain Reload Profiling:
+<<<<<<< Updated upstream
 	ReloadAssembly (1396ms)
 		BeginReloadAssembly (263ms)
 >>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
+=======
+	ReloadAssembly (627ms)
+		BeginReloadAssembly (99ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 		EndReloadAssembly (413ms)
 			LoadAssemblies (72ms)
@@ -138,35 +165,53 @@ Domain Reload Profiling:
 			LoadAssemblies (257ms)
 			RebuildTransferFunctionScriptingTraits (2ms)
 			SetupTypeCache (218ms)
+=======
+		EndReloadAssembly (432ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (104ms)
+>>>>>>> Stashed changes
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (530ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (256ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< Updated upstream
 				RefreshPlugins (176ms)
 				BeforeProcessingInitializeOnLoad (5ms)
 				ProcessInitializeOnLoadAttributes (245ms)
 				ProcessInitializeOnLoadMethodAttributes (89ms)
 >>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
+=======
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+>>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 Registered in 0.003165 seconds.
 =======
 Registered in 0.027584 seconds.
 >>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
+=======
+Registered in 0.003331 seconds.
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Evikx\Desktop\уроки\ВП\The-most-popular-game-in-the-world\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Evikx\Desktop\уроки\ВП\The-most-popular-game-in-the-world\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\ProgProjects\VisualProg\TheGame\The-most-popular-game-in-the-world\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\ProgProjects\VisualProg\TheGame\The-most-popular-game-in-the-world\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 - Completed reload, in  0.918 seconds
 Domain Reload Profiling:
@@ -186,26 +231,35 @@ Domain Reload Profiling:
 			SetupLoadedEditorAssemblies (286ms)
 =======
 - Completed reload, in  2.537 seconds
+=======
+- Completed reload, in  1.008 seconds
+>>>>>>> Stashed changes
 Domain Reload Profiling:
-	ReloadAssembly (2541ms)
-		BeginReloadAssembly (274ms)
+	ReloadAssembly (1009ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (2011ms)
-			LoadAssemblies (273ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (784ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (620ms)
+			SetupTypeCache (291ms)
 			ReleaseScriptCaches (1ms)
+<<<<<<< Updated upstream
 			RebuildScriptCaches (89ms)
 			SetupLoadedEditorAssemblies (972ms)
 >>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
+=======
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (316ms)
+>>>>>>> Stashed changes
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 				BeforeProcessingInitializeOnLoad (69ms)
 				ProcessInitializeOnLoadAttributes (192ms)
@@ -217,12 +271,19 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (24ms)
 >>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
+=======
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (4ms)
+>>>>>>> Stashed changes
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
@@ -240,13 +301,25 @@ Unloading 24 unused Assets / (113.6 KB). Loaded Objects now: 3514.
 Memory consumption went from 109.3 MB to 109.1 MB.
 Total: 12.526800 ms (FindLiveObjects: 0.438100 ms CreateObjectMapping: 0.238600 ms MarkObjects: 11.420500 ms  DeleteObjects: 0.427000 ms)
 >>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
+=======
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.6 KB). Loaded Objects now: 3513.
+Memory consumption went from 109.5 MB to 109.4 MB.
+Total: 4.181100 ms (FindLiveObjects: 0.346100 ms CreateObjectMapping: 0.160200 ms MarkObjects: 3.511200 ms  DeleteObjects: 0.161000 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -256,11 +329,16 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.002860 seconds.
+=======
+Registered in 0.004197 seconds.
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\ProgProjects\VisualProg\TheGame\The-most-popular-game-in-the-world\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\ProgProjects\VisualProg\TheGame\The-most-popular-game-in-the-world\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -268,10 +346,20 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (870ms)
 		BeginReloadAssembly (124ms)
+=======
+Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.174 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1175ms)
+		BeginReloadAssembly (152ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 			CreateAndSetChildDomain (32ms)
 		EndReloadAssembly (656ms)
 			LoadAssemblies (78ms)
@@ -526,6 +614,34 @@ Unloading 3044 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 17 unused Assets / (80.3 KB). Loaded Objects now: 3529.
 Memory consumption went from 109.1 MB to 109.0 MB.
 Total: 3.480600 ms (FindLiveObjects: 0.265200 ms CreateObjectMapping: 0.078400 ms MarkObjects: 2.982400 ms  DeleteObjects: 0.153200 ms)
+=======
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (931ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (393ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3042 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.2 KB). Loaded Objects now: 3516.
+Memory consumption went from 109.4 MB to 109.3 MB.
+Total: 3.544700 ms (FindLiveObjects: 0.335400 ms CreateObjectMapping: 0.144400 ms MarkObjects: 2.951900 ms  DeleteObjects: 0.110900 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -533,8 +649,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+<<<<<<< Updated upstream
 =======
 >>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
+=======
+>>>>>>> Stashed changes
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -542,6 +661,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
 <<<<<<< HEAD
   Time since last request: 263809.398594 seconds.
   path: Assets/Furniture_FREE/Prefabs/bathroom_item_001.prefab
@@ -822,14 +942,21 @@ Received Import Request.
   path: Assets/Furniture_FREE/Meshes/clothes_002.fbx
   artifactKey: Guid(f09f041d0102cc1448425092c1886ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Furniture_FREE/Meshes/clothes_002.fbx using Guid(f09f041d0102cc1448425092c1886ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e7395c7f28753faa1c5fea57188f4c') in 0.042838 seconds 
+=======
+  Time since last request: 272855.599108 seconds.
+  path: Assets/Brown.mat
+  artifactKey: Guid(24bbfb0daec30aa43a40ce09da408efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brown.mat using Guid(24bbfb0daec30aa43a40ce09da408efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd496cea423f843a73d0bf63e364f4362') in 0.177578 seconds 
+>>>>>>> Stashed changes
 ========================================================================
 Received Import Request.
   Time since last request: 0.000050 seconds.
-  path: Assets/Furniture_FREE/Meshes/ketchup_001.fbx
-  artifactKey: Guid(d01061434e86e964abeac90d826f3a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture_FREE/Meshes/ketchup_001.fbx using Guid(d01061434e86e964abeac90d826f3a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4650f99bb95c25d712444683b3507980') in 0.042955 seconds 
+  path: Assets/cash_register.fbx
+  artifactKey: Guid(13a47ed0a33f3dd4f80df90680b542aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cash_register.fbx using Guid(13a47ed0a33f3dd4f80df90680b542aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e065c0b46de5656af701f36cc8fde88') in 0.101472 seconds 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 0.000056 seconds.
   path: Assets/Furniture_FREE/Meshes/drink_001.fbx
   artifactKey: Guid(f6c4b28893fd9e34f952e0407c497a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -889,6 +1016,12 @@ Received Import Request.
   artifactKey: Guid(ced7d5d843f03774e8c82dc8a229be4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Furniture_FREE/Meshes/kitchen_chair_001.fbx using Guid(ced7d5d843f03774e8c82dc8a229be4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e6432a7519cdb1b115063d579f6913') in 0.243548 seconds 
 >>>>>>> 6a84a08a0de2391b99b183c16bd2b1b3a9587582
+=======
+  Time since last request: 0.000089 seconds.
+  path: Assets/Window.jpg
+  artifactKey: Guid(fe8a934860b42b54fa00cbf85f45f124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Window.jpg using Guid(fe8a934860b42b54fa00cbf85f45f124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534584574f35d158c7d2c577beb26dfa') in 0.033364 seconds 
+>>>>>>> Stashed changes
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
