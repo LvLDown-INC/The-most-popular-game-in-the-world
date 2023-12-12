@@ -4,12 +4,8 @@ using UnityEngine;
 
 public class PickUpSomething : MonoBehaviour
 {
-<<<<<<< Updated upstream
+    public GameObject Сamera;
 
-    public GameObject camera;
-=======
-    public GameObject Camera;
->>>>>>> Stashed changes
     public float distance = 15f;
     GameObject currentItem;
     bool canPickUp;
@@ -21,11 +17,8 @@ public class PickUpSomething : MonoBehaviour
     void PickUpItem()
     {
         RaycastHit hit;
-<<<<<<< Updated upstream
-        if (Physics.Raycast(camera.transform.position, camera.transform.forward, out hit, distance))
-=======
-        if (Physics.Raycast(Camera.transform.position, Camera.transform.forward, out hit, distance))
->>>>>>> Stashed changes
+        if (Physics.Raycast(Сamera.transform.position, Сamera.transform.forward, out hit, distance))
+
         {
             if (hit.transform.tag == "Pickable") 
             {
